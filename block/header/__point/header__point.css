@@ -1,0 +1,27 @@
+.header__point:nth-child(1) {
+    margin: 0 5px 0 auto;
+    background:url(../../../images/point.svg) no-repeat 84px;
+    padding-right: 13px;
+}
+.header__point:nth-child(2) {
+    background:url(../../../images/point.svg) no-repeat 135px;
+    margin: 0 5px auto 18px;
+    padding-right: 13px;
+}
+.header__point:nth-child(3) {
+    margin: 0 26px 0 18px;
+}
+.header__point:nth-child(4) {
+    margin: 0 10px;
+}
+.header__point:nth-child(5) {
+    margin: 0 10px;
+}
+.header__point:nth-child(6) {
+    background:url(../../../images/point.svg) no-repeat 89px;
+    margin: 0 0 auto 10px;
+    padding-right: 13px;
+}
+.header__point {
+    direction:rtl;
+}

@@ -1,3 +1,4 @@
+@import url("../vendors/normalize.css");
 @import url("../block/header/header.css");
 @import url("../block/achievements/achievements.css");
 @import url("../block/contacts/contacts.css");
@@ -7,3 +8,40 @@
 @import url("../block/services/services.css");
 @import url("../block/solution/solution.css");
 @import url("../block/technologies/technologies.css");
+@import url("../block/logo-company/logo-company.css");
+@import url("../block/logo-game/logo-game.css");
+@import url("../block/button/button.css");
+
+@font-face {
+    font-family: Harabara; 
+    src: url(../fonts/Harabara.ttf); 
+   }
+@font-face {
+    font-family: Montserrat; 
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf); 
+   }
+
+h1 {
+    font-family: Harabara;
+   }
+p {
+    font-family: Montserrat;
+}
+ul li {
+    list-style:none
+};
+
+body {
+    margin:0;
+    padding:0;
+    width: 1600px;
+    overflow: hidden;
+    font-family: Harabara, Montserrat;
+}
+.main {
+    max-width:1600px;
+    overflow: hidden;
+}
+div {
+    border: 1px red solid;
+}

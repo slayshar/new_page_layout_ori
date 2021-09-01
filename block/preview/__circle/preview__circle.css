@@ -1,0 +1,9 @@
+@import url(../__circle/_empty/preview__circle_empty.css);
+@import url(../__circle/_full/preview__circle_full.css);
+
+.preview__circle {
+height: 20px;
+width: 20px;
+border-radius: 20px;
+border: 3px solid white;
+}
