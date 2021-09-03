@@ -1,0 +1,16 @@
+@import url(./__clutch/technologies__clutch.css);
+@import url(./__text/technologies__text.css);
+@import url(./__title/technologies__title.css);
+@import url(./__icons/technologies__icons.css);
+@import url(./__mark/technologies__mark.css);
+@import url(./__star_color_green/technologies__star_color_green.css);
+@import url(./__star_color_grey/technologies__star_color_grey.css);
+@import url(./__star_half/technologies__star_half.css);
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 109px auto 120px;
+    width: 898px;
+}

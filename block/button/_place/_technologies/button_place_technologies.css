@@ -1,0 +1,24 @@
+.button_place_technologies {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+}
+.button_place_technologies:nth-child(1) {
+background-image: url(../../../../images/android_logo.svg);
+background-repeat: no-repeat;
+background-position: 51% center;
+    margin: 30px 40px auto auto;
+}
+.button_place_technologies:nth-child(2) {
+    background-image: url(../../../../images/apple_logo.svg);
+background-repeat: no-repeat;
+background-position: center 47%;
+    margin: 30px 40px auto 40px;
+}
+.button_place_technologies:nth-child(3) {
+    background-image: url(../../../../images/dontknow_logo.svg);
+background-repeat: no-repeat;
+background-position: 45% center;
+    margin: 30px auto auto 40px;
+}

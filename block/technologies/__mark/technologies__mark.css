@@ -1,0 +1,10 @@
+@import url(./_number/technologies__mark_number.css);
+@import url(./_reviews/technologies__mark_reviews.css);
+
+.technologies__mark {
+    height: 24px;
+    width: 290px;
+    margin-top: 57px;
+    display: flex;
+    align-items: center;
+}

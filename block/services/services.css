@@ -1,0 +1,9 @@
+@import url(./__info/services__info.css);
+@import url(./__game-development-ill/services__game-development-ill.css);
+@import url(./__game-development-text/services_game-development-text.css);
+@import url(./__game-development-title/services_game-development-title.css);
+@import url(./__game-development-block/services__game-development-block.css);
+
+.services {
+    max-width: 1131px;
+}

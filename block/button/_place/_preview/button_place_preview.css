@@ -1,3 +1,8 @@
 .button_place_preview:nth-child(2) {
 margin-left: 24px;
 }
+.button_place_preview{
+    height: 42px;
+    width: 160px;
+    border-radius: 6px;
+}
