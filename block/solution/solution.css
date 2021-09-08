@@ -1,0 +1,9 @@
+@import url(./__wave-dark-blue/solution__wave-dark-blue.css);
+@import url(./__wave-light-blue/solution__wave-light-blue.css);
+@import url(./__text/solution__text..css);
+@import url(./__title/solution__title.css);
+@import url(./__block/solution__block.css);
+
+.solution {
+    position: relative;
+}

@@ -6,9 +6,10 @@
 @import url(./_place/_header/button_place_header.css);
 @import url(./_place/_technologies/button_place_technologies.css);
 @import url(./_place/_clutch/button_place_clutch.css);
+@import url(./_place/_solution/button_place_solution.css);
+@import url(./_color/_white/button_color_white.css);
 
 .button {
-    color:white;
     font-family: Montserrat;
 font-style: normal;
 font-weight: bold;

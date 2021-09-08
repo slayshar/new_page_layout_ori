@@ -1,0 +1,13 @@
+@import url(./_mosaic/achievements__card_mosaic.css);
+@import url(./_rocket/achievements__card_rocket.css);
+@import url(./_mobile/achievements__card_mobile.css);
+@import url(./_box/achievements__card_box.css);
+
+.achievements__card {
+    border-radius: 16px;
+    height: 400px;
+width: 320px;
+background-color: rgba(61, 39, 199, 0.05);
+text-align: center;
+position: relative;
+}

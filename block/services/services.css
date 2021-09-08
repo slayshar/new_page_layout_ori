@@ -1,9 +1,22 @@
 @import url(./__info/services__info.css);
 @import url(./__game-development-ill/services__game-development-ill.css);
-@import url(./__game-development-text/services_game-development-text.css);
-@import url(./__game-development-title/services_game-development-title.css);
+@import url(./__game-development-text/services__game-development-text.css);
+@import url(./__game-development-title/services__game-development-title.css);
 @import url(./__game-development-block/services__game-development-block.css);
+@import url(./__sdk-development-block/services__sdk-development-block.css);
+@import url(./__sdk-development-ill/services__sdk-development-ill.css);
+@import url(./__sdk-development-text/services__sdk-development-text.css);
+@import url(./__sdk-development-title/services__sdk-development-title.css);
+@import url(./__modeling-services-block/services__modeling-services-block.css);
+@import url(./__modeling-services-ill/services__modeling-services-ill.css);
+@import url(./__modeling-services-text/services__modeling-services-text.css);
+@import url(./__modeling-services-title/services__modeling-services-title.css);
+@import url(./__vr-app-block/services__vr-app-block.css);
+@import url(./__vr-app-ill/services__vr-app-ill.css);
+@import url(./__vr-app-text/services__vr-app-text.css);
+@import url(./__vr-app-title/services__vr-app-title.css);
 
 .services {
     max-width: 1131px;
+    margin: 0 auto;
 }

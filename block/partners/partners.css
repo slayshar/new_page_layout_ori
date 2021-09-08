@@ -1,0 +1,10 @@
+@import url(./__title/partners__title.css);
+@import url(./__name/partners__name.css);
+@import url(./__desk/partners__desk.css);
+
+
+.partners {
+    background-image: url(../../images/wave-background.svg);
+    height: 1412px;
+    margin-top: 131px;
+}

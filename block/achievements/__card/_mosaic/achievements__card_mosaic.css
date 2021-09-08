@@ -1,0 +1,6 @@
+.achievements__card_mosaic {
+    background-image: url(../../../../images/hands.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}

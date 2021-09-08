@@ -1,0 +1,7 @@
+.achievements__block {
+    display: grid;
+    margin: 0 121px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+
+}

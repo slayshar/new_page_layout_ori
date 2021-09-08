@@ -3,6 +3,7 @@
     height: 64px;
     border-radius: 16px;
     box-shadow: 0px 4px 12px rgba(41, 24, 111, 0.2);
+    border: none;
 }
 .button_place_technologies:nth-child(1) {
 background-image: url(../../../../images/android_logo.svg);

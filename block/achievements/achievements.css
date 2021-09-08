@@ -1,0 +1,9 @@
+@import url(./__title/achivements__title.css);
+@import url(./__card/achievements__card.css);
+@import url(./__block/achievements__block.css);
+@import url(./__text/achievements__text.css);
+@import url(./__ill/achievements__ill.css);
+
+.achievements {
+    margin: 0 auto;
+}
