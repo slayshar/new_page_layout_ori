@@ -1,3 +1,4 @@
 .contacts__info_point_whatsapp {
-    
+    background: url(../../../../../images/spisok/whatsapp.svg) no-repeat;
+    background-size: contain;
 }

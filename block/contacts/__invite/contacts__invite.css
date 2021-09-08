@@ -1,0 +1,6 @@
+@import url(./_text/contacts__invite_text.css);
+@import url(./_title/contacts__invite_title.css);
+
+.contacts__invite {
+text-align: center;
+}

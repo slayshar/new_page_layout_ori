@@ -6,5 +6,6 @@
 @import url(./_point/whatsapp/contacts__info_point_whatsapp.css);
 
 .contacts__info_point {
-
+margin: 0 auto 24px auto;
+padding-left: 25px;
 }

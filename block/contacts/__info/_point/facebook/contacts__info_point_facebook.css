@@ -1,3 +1,4 @@
 .contacts__info_point_facebook {
-    
+    background: url(../../../../../images/spisok/facebook.svg) no-repeat;
+    background-size: contain;
 }

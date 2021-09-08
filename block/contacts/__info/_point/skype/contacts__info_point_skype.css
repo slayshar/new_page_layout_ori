@@ -1,3 +1,4 @@
 .contacts__info_point_skype {
-    
+    background: url(../../../../../images/spisok/skype.svg) no-repeat;
+    background-size: contain;
 }
