@@ -1,6 +1,10 @@
 @import url(./__title/contacts__title.css);
 @import url(./__info/contacts__info.css);
 @import url(./__invite/contacts__invite.css);
+@import url(./__block/contacts__block.css);
+@import url(./__ill/contacts__ill.css);
+@import url(./__form/contacts__form.css);
+@import url(./__forms/contacts__forms.css);
 
 .contacts {
 
