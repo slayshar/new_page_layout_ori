@@ -1,3 +1,8 @@
+@import url(./_input/contacts__form_input.css);
+@import url(./_item/contacts__form_item.css);
+@import url(./_size/contacts__form_size.css);
+
+
 .contacts__form {
     position: relative;
 }

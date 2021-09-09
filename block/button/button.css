@@ -8,6 +8,8 @@
 @import url(./_place/_clutch/button_place_clutch.css);
 @import url(./_place/_solution/button_place_solution.css);
 @import url(./_color/_white/button_color_white.css);
+@import url(./_place/_form/button_place_form.css);
+@import url(./_color/_light-green/button_color_light-green.css);
 
 .button {
     font-family: Montserrat;

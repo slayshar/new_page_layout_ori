@@ -1,0 +1,8 @@
+.contacts__form_size_short {
+    width: 339px;
+    height: 40px;
+}
+
+.contacts__form_size_short::placeholder {
+    transform: translateY(-10px);
+}
