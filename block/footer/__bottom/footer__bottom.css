@@ -1,0 +1,8 @@
+.footer__bottom {
+    display: grid;
+    background-color: white;
+    height: 60px;
+    margin-top: 10px;
+    grid-template-columns: 64% 14% 1fr;
+    align-content: center;
+}

@@ -1,0 +1,17 @@
+@import url(./_ab/footer__title_ab.css);
+@import url(./_blog/footer__title_blog.css);
+@import url(./_port/footer__title_port.css);
+@import url(./_prod/footer__title_prod.css);
+@import url(./_serv/footer__title_serv.css);
+@import url(./_tech/footer__title_tech.css);
+
+.footer__title {
+    font-family: Harabara;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    align-self: center;
+}

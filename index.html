@@ -10,7 +10,7 @@
 
 <body>
     <header class="header">
-        <img src="./images/logoSA.svg" class="logo-company logo-company_place_header">
+        <img src="./images/logoSA.svg" class="header__logo">
         <ul class="header__list">
             <li class="header__point">SERVICES</li>
             <li class="header__point">TECHNOLOGIES</li>
@@ -23,7 +23,7 @@
     </header>
     <main class="main">
         <section class="preview">
-            <img src="./images/Logo-ori-wotw2 1.png" class="logo-game logo-game_place_preview">
+            <img src="./images/Logo-ori-wotw2 1.png" class="preview__logo">
             <div class="preview__information">
                 <h1 class="preview__title">FOCUS ON THE PRODUCT AND LET US DO THE REST!</h1>
                 <p class="preview__subtitle">We’re an Indian software development company focused on just one thing -
@@ -200,37 +200,88 @@
         <section class="contacts">
             <h1 class="contacts__title middle-title">CONTACTS</h1>
             <div class="contacts__invite">
-            <h2 class="contacts__invite_title">We are open for dialog and you are welcome to share your opinions or thoughts with us</h2>
-            <h3 class="contacts__invite_text">Hit us up any time through email with any idea and help us turn your great ideas into brilliant projects
-            </h3></div>
+                <h2 class="contacts__invite_title">We are open for dialog and you are welcome to share your opinions or
+                    thoughts with us</h2>
+                <h3 class="contacts__invite_text">Hit us up any time through email with any idea and help us turn your
+                    great ideas into brilliant projects
+                </h3>
+            </div>
             <div class="contacts__block">
-            <ul class="contacts__info">
-                <li class="contacts__info_point contacts__info_point_adress">Ukraine, Kyiv, Rodyny Kristeriv 20B, office 188</li>
-                <li class="contacts__info_point contacts__info_point_number">+38 (093) 345 56 76</li>
-                <li class="contacts__info_point contacts__info_point_whatsapp">+38 (093) 345 56 77</li>
-                <li class="contacts__info_point contacts__info_point_skype">Stanassets</li>
-                <li class="contacts__info_point contacts__info_point_mail">stanAssets@gmail.com</li>
-                <li class="contacts__info_point contacts__info_point_facebook">facebook.com/Stanassets</li>
-            </ul>
-            <div class="contacts__form">
-                <img src="./images/form/message.svg" alt="" class="contacts__ill contacts__ill_message">
-                <img src="./images/form/phone.svg" alt="" class="contacts__ill contacts__ill_phone">
-                <img src="./images/form/envelope.svg" alt="" class="contacts__ill contacts__ill_envelope">
-                <form action="" class="form__admin"><div class="contacts__forms">
-                    <fieldset class="contacts__form_input">
-                        <input type="text" class="contacts__form_item contacts__form_item_name contacts__form_size_short" name = "name" placeholder = "Name">
-                        <input type="email" class="contacts__form_item contacts__form_item_email contacts__form_size_short" name = "email" placeholder = "Email">
-                <textarea id="message" type="text" class="contacts__form_item contacts__form_item_msg contacts__form_size_long" name = "message" placeholder = "Message"></textarea>
-                        <input type="submit" class="button button_color_light-green button_place_form" value="SEND REQUEST" name = "heading">
-                    </fieldset>
-                   
-                </div></form>
-            </div></div>
+                <ul class="contacts__info">
+                    <li class="contacts__info_point contacts__info_point_adress">Ukraine, Kyiv, Rodyny Kristeriv 20B,
+                        office 188</li>
+                    <li class="contacts__info_point contacts__info_point_number">+38 (093) 345 56 76</li>
+                    <li class="contacts__info_point contacts__info_point_whatsapp">+38 (093) 345 56 77</li>
+                    <li class="contacts__info_point contacts__info_point_skype">Stanassets</li>
+                    <li class="contacts__info_point contacts__info_point_mail">stanAssets@gmail.com</li>
+                    <li class="contacts__info_point contacts__info_point_facebook">facebook.com/Stanassets</li>
+                </ul>
+                <div class="contacts__form">
+                    <img src="./images/form/message.svg" alt="" class="contacts__ill contacts__ill_message">
+                    <img src="./images/form/phone.svg" alt="" class="contacts__ill contacts__ill_phone">
+                    <img src="./images/form/envelope.svg" alt="" class="contacts__ill contacts__ill_envelope">
+                    <form action="" class="form__admin">
+                        <div class="contacts__forms">
+                            <fieldset class="contacts__form_input">
+                                <input type="text"
+                                    class="contacts__form_item contacts__form_item_name contacts__form_size_short"
+                                    name="name" placeholder="Name">
+                                <input type="email"
+                                    class="contacts__form_item contacts__form_item_email contacts__form_size_short"
+                                    name="email" placeholder="Email">
+                                <textarea id="message" type="text"
+                                    class="contacts__form_item contacts__form_item_msg contacts__form_size_long"
+                                    name="message" placeholder="Message"></textarea>
+                                <input type="submit" class="button button_color_light-green button_place_form"
+                                    value="SEND REQUEST" name="heading">
+                            </fieldset>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__logo logo"></div>
+                <div class="footer__block">
+                    <div class="footer__logo-full">
+                    <img src="./images/footer/logo_main.svg" alt="" class="footer__logo-main">
+                    <h1 class="footer__logo_title">stan’s assets</h1></div>
+                    <h2 class="footer__title footer__title_serv">SERVICES</h2>
+                    <h2 class="footer__title footer__title_tech">TECHNOLOGIES</h2>
+                    <h2 class="footer__title footer__title_prod">PRODUCTS</h2>
+                    <h2 class="footer__title footer__title_ab">ABOUT US</h2>
+                    <div class="footer__logos">
+                    <img src="./images/footer/logo_facebook.svg" alt="" class="footer__logo footer__logo_fb">
+                    <img src="./images/footer/logo_in.svg" alt="" class="footer__logo footer__logo_in">
+                    <img src="./images/footer/logo_whatsapp.svg" alt="" class="footer__logo footer__logo_wp">
+                    <img src="./images/footer/logo_skype.svg" alt="" class="footer__logo footer__logo_sk">
+                    <img src="./images/footer/logo_git.svg" alt="" class="footer__logo footer__logo_git"></div>
+                    <ul class="footer__ul">
+                    <li class="footer__li">Mobile Application Development</li>
+                    <li class="footer__li">Game Development Outsourcing</li>
+                    <li class="footer__li">VR App Development</li>
+                    <li class="footer__li">Dedicated Developers</li>
+                    <li class="footer__li">SDK Development</li>
+                    <li class="footer__li">3D Modeling services</li></ul>
+                    <ul class="footer__ul">
+                    <li class="footer__li">Android</li>
+                    <li class="footer__li">IOS</li>
+                    <li class="footer__li">Unity</li></ul>
+                    <div class="footer__low-title">
+                    <h2 class="footer__title footer__title_port">PORTFOLIO</h2>
+                    <h2 class="footer__title footer__title_blog">BLOG</h2></div>
+                    <ul class="footer__ul">
+                    <li class="footer__li">Contacts</li>
+                    <li class="footer__li">Team</li>
+                    <li class="footer__li">Join the Team</li></ul>
+                </div>
+        <div class="footer__bottom">
+            <p class="footer__credits">&#169; 2021 - Stan’s Assets. All Right Reserved</p>
+            <p class="footer__privacy">Privacy policy</p>
+            <p class="footer__cookies">Cookies policy</p>
+        </div>
     </footer>
 </body>
 

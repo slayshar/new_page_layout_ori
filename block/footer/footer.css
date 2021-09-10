@@ -1,5 +1,20 @@
+@import url(./__block/footer__block.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__logos/footer__logos.css);
+@import url(./__title/footer__title.css);
+@import url(./__logo-title/footer__logo-title.css);
+@import url(./__logo-full/footer__logo-full.css);
+@import url(./__ul/footer__ul.css);
+@import url(./__li/footer__li.css);
+@import url(./__bottom/footer__bottom.css);
+@import url(./__credits/footer__credits.css);
+@import url(./__privacy/footer__privacy.css);
+@import url(./__cookies/footer__cookies.css);
+
 .footer {
     height: 707px;
-    margin-top: 171px;
     width: 1600px;
+    background: url(../../images/footer/blue_wave_light.svg), url(../../images/footer/blue_wave_dark.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }

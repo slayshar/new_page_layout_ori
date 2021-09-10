@@ -1,0 +1,9 @@
+@import url(./_fb/footer__logo_fb.css);
+@import url(./_git/footer__logo_git.css);
+@import url(./_in/footer__logo_in.css);
+@import url(./_sk/footer__logo_sk.css);
+@import url(./_wp/footer__logo_wp.css);
+
+.footer__logo {
+    position: absolute;
+}
