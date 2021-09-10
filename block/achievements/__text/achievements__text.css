@@ -1,3 +1,6 @@
+@import url(./_bold/achievements__text_bold.css);
+@import url(./_blue/achievements__text_blue.css);
+
 .achievements__text {
     z-index: 3;
     margin: 289px auto auto;

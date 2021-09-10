@@ -5,11 +5,19 @@ margin: 50px auto auto;
     margin: 20px auto 0;
     border-radius: 4px;
     border: 1px solid #D7D7D7;
+    padding-left: 16px;
+    padding-top: 10px;
 
 }
 
 .contacts__form_item::placeholder {
     color:#A9A9A9;
     border-radius: 4px;
+    padding-left:16px
     margin: 10px auto auto 16px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
 }

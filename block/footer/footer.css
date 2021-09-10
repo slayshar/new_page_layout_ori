@@ -17,4 +17,5 @@
     background: url(../../images/footer/blue_wave_light.svg), url(../../images/footer/blue_wave_dark.svg);
     background-repeat: no-repeat;
     background-position: bottom;
+    position: relative;
 }

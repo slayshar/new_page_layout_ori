@@ -1,3 +1,7 @@
 .footer__logo-title {
-    
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 30px;
 }

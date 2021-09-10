@@ -5,5 +5,8 @@
 @import url(./__block/solution__block.css);
 
 .solution {
-    position: relative;
+    margin-top: 62px;
+ height: 635px;
+    background-image: url(../../images/wave\ light\ blue.svg), url(../../images/wave\ dark\ blue.svg);
+    background-repeat: no-repeat;
 }
