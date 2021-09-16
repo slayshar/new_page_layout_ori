@@ -11,7 +11,7 @@
 
 <body>
     <header class="header">
-        <img src="./images/logoSA.svg" class="header__logo">
+        <a href="#"><img src="./images/logoSA.svg" class="header__logo"></a>
         <ul class="header__list">
             <li class="header__point">SERVICES</li>
             <li class="header__point">TECHNOLOGIES</li>
@@ -20,7 +20,7 @@
             <li class="header__point">BLOG</li>
             <li class="header__point">ABOUT US</li>
         </ul>
-        <button class="button button_color_none button_place_header">CONTACT US</button>
+        <form action="page/new.html" target="_blank"><button class="button button_color_none button_place_header">CONTACT US</button></form>
     </header>
     <main class="main">
         <section class="preview">
@@ -33,13 +33,19 @@
                     companies, enterprises, and digital agencies to simplify their IT outsourcing experience & reduce
                     time/cost to market.</p>
                 <div class="preview__buttons">
-                    <button class="button button_color_none button_place_preview ">MORE</button>
-                    <button class="button button_color_green button_place_preview ">CONTACT US</button>
+                    <form action="page/new.html" target="_blank"><button class="button button_color_none button_place_preview ">MORE</button>
+                    <button class="button button_color_green button_place_preview ">CONTACT US</button></form>
                 </div>
                 <div class="preview__circles">
-                    <div class="preview__circle preview__circle_full"></div>
-                    <div class="preview__circle preview__circle_empty"></div>
-                    <div class="preview__circle preview__circle_empty"></div>
+                    <input id="cyrcle-1" name="cyrcle" type="radio" checked>
+                    <label for="cyrcle-1"></label>
+               
+                   
+                    <input id="cyrcle-2"  name="cyrcle" type="radio">
+                    <label for="cyrcle-2"></label>
+                   
+                    <input id="cyrcle-3"  name="cyrcle" type="radio">
+                    <label for="cyrcle-3"></label>
                 </div>
             </div>
         </section>
@@ -51,13 +57,13 @@
                 that are committed to developing high quality and engaging entertainment software
             </p>
             <div class="technologies__icons">
-                <button class="button button_color_green button_place_technologies "></button>
+                <form action="page/new.html" target="_blank"><button class="button button_color_green button_place_technologies "></button>
                 <button class="button button_color_dark-blue button_place_technologies "></button>
-                <button class="button button_color_light-blue button_place_technologies "></button>
+                                <button class="button button_color_light-blue button_place_technologies "></button></form>
             </div>
             <p class="technologies__text">Our engineers develop applications for the most popular platforms.</p>
-            <div class="technologies__clutch"><img src="./images/clutch_logo.svg" alt=""
-                    class="logo-clutch logo-clutch_place_technologies">
+            <div class="technologies__clutch"><a href="#"><img src="./images/clutch_logo.svg" alt=""
+                    class="logo-clutch logo-clutch_place_technologies"></a>
                 <div class="technologies__mark">
                     <p class="technologies__mark_number">4,5</p>
                     <img src="./images/Star_green.svg" class="technologies__star_color_green">
@@ -68,7 +74,7 @@
                     <img src="./images/Star_half.svg" alt="" class="technologies__star_half">
                     <p class="technologies__mark_reviews">2 reviews</p>
                 </div>
-                <button class="button button_color_green button_place_clutch">CHECK OUT REVIEWS</button>
+                <form action="page/new.html" target="_blank"><button class="button button_color_green button_place_clutch">CHECK OUT REVIEWS</button></form>
             </div>
 
         </section>
@@ -151,7 +157,7 @@
             <div class="solution__block">
                 <h1 class="solution__title">LOOKING FOR A PARTNER IN BUILDING A SOLUTION?</h1>
                 <p class="solution__text">We are ready to discuss your project requirements</p>
-                <button class="button button_place_solution button_color_white">LET’S TALK</button>
+                <form action="page/new.html" target="_blank"><button class="button button_place_solution button_color_white">LET’S TALK</button></form>
             </div>
         </section>
 
@@ -284,6 +290,9 @@
             </ul>
         </div>
         <div class="footer__bottom">
+            <div class="preview__circle preview__circle_full"></div>
+            <div class="preview__circle preview__circle_empty"></div>
+            <div class="preview__circle preview__circle_empty"></div>
             <p class="footer__credits">&#169; 2021 - Stan’s Assets. All Right Reserved</p>
             <p class="footer__privacy">Privacy policy</p>
             <p class="footer__cookies">Cookies policy</p>

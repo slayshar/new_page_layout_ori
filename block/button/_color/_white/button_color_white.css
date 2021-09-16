@@ -1,4 +1,9 @@
 .button_color_white {
     background-color: white;
     color: #06B25F;
+    transition: 0.2s linear;
+}
+.button_color_white:hover {
+    margin-top: -5px;
+    box-shadow: 0 5px #06B25F;
 }

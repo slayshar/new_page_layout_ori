@@ -2,4 +2,8 @@
     background-color: #06B25F;
     color:white;
     border: none;
+    transition: opacity 2s ease;
+}
+.button_color_green:hover {
+    opacity: 40%;
 }
