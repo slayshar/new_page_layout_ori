@@ -2,4 +2,9 @@
     background-color:#2DA531;
     color: white;
     border: none;
+    transition:background-color 1s ease 0.5s;
+}
+.button_color_light-green:hover{
+    background-color: yellowgreen;
+    
 }

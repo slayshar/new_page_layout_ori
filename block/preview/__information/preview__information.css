@@ -1,6 +1,5 @@
 .preview__information {
    width: 552px;
-   position: absolute;
-   top:227px;
-   left: 120px;
+   padding-top:227px;
+   margin-left: 120px;
 }

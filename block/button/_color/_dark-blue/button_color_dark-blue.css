@@ -1,4 +1,8 @@
 .button_color_dark-blue {
     background-color: #276ED8;
     color:white;
+  transition: opacity 2s ease;
+}
+.button_color_dark-blue:hover {
+    opacity: 40%;
 }

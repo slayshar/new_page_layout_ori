@@ -1,4 +1,24 @@
 .preview__circles {
     margin-top: 60px;
     display: flex;
+    
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+}
+.preview__circles input[type=radio] {
+	display: inline-block;
+    width: 20px;
+	height: 20px;
+    user-select: none;
+   
+}
+.preview__circles input[type=radio]:hover {
+    cursor: pointer;
+}
+.preview__circles input[type=radio]:checked {
+    background-color: white;
+}
+.preview__circles input[id=my_checkbox]:not(:checked) {
+    background: none;
 }

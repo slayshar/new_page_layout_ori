@@ -2,4 +2,10 @@
     background-color: transparent;
     border: 2px solid #FFFFFF;
     color:white;
+    transition: box-shadow 0.2s linear;
+}
+.button_color_none:hover {
+    
+    box-shadow: 0 0 10px white;
+  
 }
