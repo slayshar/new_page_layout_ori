@@ -1,4 +1,4 @@
 .contacts__info_point_adress {
-    background: url(../../../../../images/spisok/adress.svg) no-repeat;
-    background-size: contain;
+    list-style-image: url(../../../../../images/spisok/adress.svg);
+  
 }

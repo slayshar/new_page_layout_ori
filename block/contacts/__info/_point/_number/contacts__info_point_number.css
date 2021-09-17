@@ -1,4 +1,3 @@
 .contacts__info_point_number {
-    background: url(../../../../../images/spisok/telephone.svg) no-repeat;
-    background-size: contain;
+    list-style-image: url(../../../../../images/spisok/telephone.svg);
 }

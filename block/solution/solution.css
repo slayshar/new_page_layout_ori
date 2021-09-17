@@ -5,8 +5,10 @@
 @import url(./__block/solution__block.css);
 
 .solution {
-    margin-top: 62px;
+    margin: 62px auto 0;
  height: 635px;
     background-image: url(../../images/wave\ light\ blue.svg), url(../../images/wave\ dark\ blue.svg);
     background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 1px;
 }
