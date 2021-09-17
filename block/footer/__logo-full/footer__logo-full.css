@@ -1,3 +1,4 @@
 .footer__logo-full {
     display: flex;
+    flex-wrap: wrap;
 }

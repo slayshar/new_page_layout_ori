@@ -10,12 +10,17 @@
 @import url(./__credits/footer__credits.css);
 @import url(./__privacy/footer__privacy.css);
 @import url(./__cookies/footer__cookies.css);
+@import url(./__break/footer__break.css);
+@import url(./__services/footer__services.css);
+@import url(./__technologies/footer__technologies.css);
+@import url(./__products/footer__products.css);
+@import url(./__about/footer__about.css);
 
 .footer {
-    height: 707px;
-    width: 1600px;
+    max-height: 707px;
+    max-width: 1600px;
     background: url(../../images/footer/blue_wave_light.svg), url(../../images/footer/blue_wave_dark.svg);
     background-repeat: no-repeat;
     background-position: bottom;
-    position: relative;
+   
 }
