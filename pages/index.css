@@ -40,15 +40,26 @@ p {
 ul li {
     list-style:none
 };
-
+#body {
+    margin: 0 auto;
+    max-width: 1600px;
+}
 body {
-    margin:0;
-    padding:0;
-    width: 1600px;
-    overflow: hidden;
+    margin:0 auto;
+    padding: 0;
+    max-width: 1600px;
+    
     font-family: Harabara, Montserrat;
 }
 .main {
     max-width:1600px;
     overflow: hidden;
+}
+.footer__logo-full a {
+    text-decoration: none;
+    color:white;
+}
+
+.train {
+    display: grid;
 }

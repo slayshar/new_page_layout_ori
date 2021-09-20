@@ -2,7 +2,7 @@
     background-color:#2DA531;
     color: white;
     border: none;
-    transition:background-color 1s ease 0.5s;
+    transition:background-color 0.5s ease ;
 }
 .button_color_light-green:hover{
     background-color: yellowgreen;
