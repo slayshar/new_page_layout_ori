@@ -9,22 +9,22 @@
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
-    <header class="header">
-        <a href="#"><img src="./images/logoSA.svg" class="header__logo"></a>
-        <ul class="header__list">
-            <li class="header__point">SERVICES</li>
-            <li class="header__point">TECHNOLOGIES</li>
-            <li class="header__point">PRODUCTS</li>
-            <li class="header__point">PORTFOLIO</li>
-            <li class="header__point">BLOG</li>
-            <li class="header__point">ABOUT US</li>
-        </ul>
-        <form action="page/new.html" target="_blank"><button
-                class="button button_color_none button_place_header">CONTACT US</button></form>
-    </header>
+<body id="body">
     <main class="main">
         <section class="preview">
+            <header class="header">
+                <a href="#"><img src="./images/logoSA.svg" class="header__logo"></a>
+                <ul class="header__list">
+                    <li class="header__point">SERVICES</li>
+                    <li class="header__point">TECHNOLOGIES</li>
+                    <li class="header__point">PRODUCTS</li>
+                    <li class="header__point">PORTFOLIO</li>
+                    <li class="header__point">BLOG</li>
+                    <li class="header__point">ABOUT US</li>
+                </ul>
+                <form action="page/new.html" target="_blank"><button
+                        class="button button_color_none button_place_header">CONTACT US</button></form>
+            </header>
             <img src="./images/Logo-ori-wotw2 1.png" class="preview__logo">
             <div class="preview__information">
                 <h1 class="preview__title">FOCUS ON THE PRODUCT AND LET US DO THE REST!</h1>
@@ -85,10 +85,12 @@
 
         </section>
         <section class="services">
+
+        
+        </div>
             <h1 class="services__title middle-title">SERVICES</h1>
             <div class="services__info">
-                <div class="services__variations">
-                    <div class="services__game-development-block">
+                <div class="services__variations_gd"><div>
                         <h2 class="services__game-development-title">GAME DEVELOPMENT</h2>
                         <p class="services__game-development-text">Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
@@ -105,11 +107,10 @@
                             ligula in ligula malesuada venenatis.
                             Fusce lacus felis, efficitur ut euismod ac, gravida sed tortor. Suspendisse vitae imperdiet
                             elit, at
-                            viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.</p>
-                    </div>
+                            viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.</p></div>
                     <img class="services__game-development-ill" src="./images/GAME-DEVELOPMENT.svg" alt="">
                 </div>
-                <div class="services__variations">
+                <div class="services__variations_sd">
                     <img class="services__sdk-development-ill" src="./images/SDK-DEVELOPMENT.svg" alt="">
                     <div class="services__sdk-development-block">
                         <h2 class="services__sdk-development-title">SDK DEVELOPMENT</h2>
@@ -132,7 +133,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="services__variations">
+                <div class="services__variations_ms">
                     <div class="services__modeling-services-block">
                         <h2 class="services__modeling-services-title">3D MODELING SERVICES</h2>
                         <p class="services__modeling-services-text">Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -154,7 +155,7 @@
                     </div>
                     <img class="services__modeling-services-ill" src="./images/MODELIN-SERVICES.svg" alt="">
                 </div>
-                <div class="services__variations">
+                <div class="services__variations_va">
                     <img class="services__vr-app-ill" src="./images/VR DEVELOPMENT.svg" alt="">
                     <div class="services__vr-app-block">
                         <h2 class="services__vr-app-title">VR APP DEVELOPMENT</h2>
@@ -174,7 +175,7 @@
                             viverra magna. Aenean ut libero ut arcu maximus faucibus ut ut sapien.</p>
                     </div>
                 </div>
-
+            </div>
             </div>
         </section>
         <section class="solution">
@@ -289,7 +290,7 @@
                 <img src="./images/footer/logo_facebook.svg" alt="" class="footer__logo footer__logo_fb">
                 <img src="./images/footer/logo_in.svg" alt="" class="footer__logo footer__logo_in">
                 <img src="./images/footer/logo_whatsapp.svg" alt="" class="footer__logo footer__logo_wp">
-                
+
                 <img src="./images/footer/logo_skype.svg" alt="" class="footer__logo footer__logo_sk">
                 <img src="./images/footer/logo_git.svg" alt="" class="footer__logo footer__logo_git">
             </div>
