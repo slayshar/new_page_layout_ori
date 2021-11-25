@@ -1,5 +1,12 @@
 .preview__information {
-   width: 552px;
+   max-width: 552px;
    padding-top:227px;
    margin-left: 120px;
+}
+@media screen and (max-width:425px) {
+   .preview__information {
+      max-width: 320px;
+      margin:0 auto;
+      padding-top: 93px;
+   }
 }

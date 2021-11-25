@@ -2,17 +2,35 @@
 @import url(../preview/__circles/preview__circles.css);
 @import url(../preview/__information/preview__information.css);
 @import url(../preview/__title/preview__title.css);
-@import url(../preview/__subtitle/preview__subtitle.css);
+@import url(../preview/__subtitle/preview__subtitle-in.css);
+@import url(../preview/__subtitle/preview__subtitle-out.css);
 @import url(../preview/__circle/preview__circle.css);
 @import url(../preview/__logo/preview__logo.css);
 
 .preview {
     background-image:linear-gradient(89.81deg, #1F0047 23.59%, rgba(16, 0, 80, 0.1) 58.68%, rgba(25, 0, 123, 0) 84.34%), url(../../images/background.svg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     max-width: 1600px;
-    height: 900px;
+    min-height: 900px;
     color:white;
     position: relative;
     margin: 0 auto;
+}
+
+@media screen and (max-width:1440px) {
+    .preview {
+       
+    }
+}
+@media screen and (max-width:1024px) {
+    .preview {
+       
+    }
+}
+@media screen and (max-width:425px) {
+    .preview {
+        min-height: 340px;
+    }
 }

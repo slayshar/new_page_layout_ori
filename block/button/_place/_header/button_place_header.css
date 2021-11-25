@@ -6,3 +6,15 @@ border-radius: 6px;
 height: 42px;
 width: 160px;
 }
+@media screen and (max-width:1024px) {
+    .button_place_header {
+        display:none;
+    }
+    
+}
+@media screen and (max-width:1440px) and (min-width:1025px) {
+    .button_place_header {
+        margin-left: 50px;
+    }
+    
+}

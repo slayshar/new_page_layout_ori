@@ -1,0 +1,47 @@
+.preview__subtitle-out {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    min-height: 286px;
+    min-width: 260px;
+    margin: 30px 30px;
+}
+@media screen and (max-width: 425px) {
+   
+    .preview__subtitle-out {
+        
+        color: black;
+        
+
+
+        
+    }
+    
+}
+@media screen and (max-width: 320px) {
+   
+    .preview__subtitle-out {
+        
+        color: black;
+       
+
+
+        
+    }
+    
+}
+@media screen and (min-width: 426px) {
+   
+    .preview__subtitle-out {
+        
+        display: none;
+        
+
+
+        
+    }
+    
+}

@@ -6,3 +6,9 @@ margin-left: 24px;
     width: 160px;
     border-radius: 6px;
 }
+@media screen and (max-width:425px) {
+    .button_place_preview {
+        width: 146px;
+    }
+    
+}

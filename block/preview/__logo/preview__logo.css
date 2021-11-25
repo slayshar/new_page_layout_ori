@@ -3,3 +3,6 @@
     top:220px;
     right:112px;
 }
+@media screen and (max-width:1024px) {
+   .preview__logo{display: none;} 
+}

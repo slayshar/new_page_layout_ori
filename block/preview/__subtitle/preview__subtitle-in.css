@@ -1,7 +1,12 @@
-.preview__subtitle {
+.preview__subtitle-in {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
+}
+@media screen and (max-width: 425px) {
+    .preview__subtitle-in {
+        display: none;
+    }
 }

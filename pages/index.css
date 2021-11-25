@@ -63,3 +63,21 @@ body {
 .train {
     display: grid;
 }
+#menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked ~ .header__menu_btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .header__menu_btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .header__menu_btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .header__menu_box {
+    visibility: visible;
+    left: 0;
+  }

@@ -22,3 +22,9 @@
 .preview__circles input[id=my_checkbox]:not(:checked) {
     background: none;
 }
+@media screen and (max-width:425px) {
+    .preview__circles {
+        display:none;
+    }
+    
+}

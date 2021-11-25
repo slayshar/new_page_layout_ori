@@ -1,10 +1,50 @@
 .header__logo {
-    height: 52px;
-width: 207px;
+  max-height: 52px;
+max-width: 207px;
 position:absolute;
 top: 7px;
 left: 125px;
 }
-.header__logo:hover {
-  
+@media screen and (max-width:320px) {
+  .header__logo {
+    height: 35px;
+    left: 20px;
+    top: 10px;
+   
+  }
+}
+@media screen and (max-width:425px) and (min-width:321px) {
+    .header__logo {
+      height: 35px;
+      left: 30px;
+      top: 10px;
+     
+    }
+  }
+    @media screen and (max-width:768px) and (min-width:426px) {
+      .header__logo {
+        
+        left: 50px;
+        top: 10px;
+       
+      }
+    
+}
+@media screen and (max-width:1024px) and (min-width:769px) {
+  .header__logo {
+    
+    left: 120px;
+    top: 10px;
+   
+  }
+
+}
+@media screen and (max-width:1440px) and (min-width:1025px) {
+  .header__logo {
+    
+    left: 120px;
+    top: 14px;
+   
+  }
+
 }
