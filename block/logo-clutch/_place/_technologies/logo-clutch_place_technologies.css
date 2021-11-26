@@ -3,3 +3,9 @@ width: 132px;
 height: 74px;
 margin: 29px auto 35px 33px;
 }
+@media screen and (max-width:768px) {
+    .logo-clutch_place_technologies {
+        margin:29px auto;
+    }
+    
+}
