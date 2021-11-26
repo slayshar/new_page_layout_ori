@@ -27,3 +27,16 @@ background-position: 45% center;
 .button_place_technologies:hover {
     opacity:40%;
 }
+
+@media screen and (max-width:375px) {
+    .button_place_technologies:nth-child(1) {
+            margin: 30px 20px auto auto;
+        }
+        .button_place_technologies:nth-child(2) {
+            margin: 30px 20px auto 20px;
+        }
+        .button_place_technologies:nth-child(3) {
+            margin: 30px auto auto 20px;
+        }
+    
+}

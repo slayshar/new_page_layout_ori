@@ -1,3 +1,21 @@
 .technologies__title {
     margin-bottom: 60px;
 }
+@media screen and (max-width:425px) {
+    .technologies__title {
+       margin-bottom: 0px;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:768px) {
+    .technologies__title {
+       margin-bottom: 20px;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .technologies__title {
+       margin-bottom: 20px;
+    }
+    
+}
