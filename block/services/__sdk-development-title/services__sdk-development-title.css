@@ -6,3 +6,11 @@ font-weight: bold;
 font-size: 24px;
 line-height: 38px;
 }
+@media screen and (max-width:425px) {
+    .services__sdk-development-title {
+        text-align: center;
+        font-size: 18px;
+        margin:30px auto 10px;
+    }
+    
+}

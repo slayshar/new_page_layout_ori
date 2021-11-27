@@ -1,3 +1,9 @@
 .services__game-development-block {
  
 }
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .services__game-development-block {
+        margin-left:30px;
+    }
+    
+}

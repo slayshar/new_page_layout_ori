@@ -1,3 +1,9 @@
 .services__modeling-services-block {
     
 }
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .services__modeling-services-block {
+        margin-left:30px;
+    }
+    
+}

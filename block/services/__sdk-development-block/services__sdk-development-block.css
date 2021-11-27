@@ -1,3 +1,15 @@
 .services__sdk-development-block {
   
 }
+@media screen and (max-width:425px) {
+    .services__sdk-development-block {
+        order:1;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .services__sdk-development-block {
+        margin-right:30px;
+    }
+    
+}

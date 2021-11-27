@@ -1,3 +1,36 @@
 .services__sdk-development-ill {
 
 }
+@media screen and (min-width:320px) and (max-width:424px) {
+    .services__sdk-development-ill {
+        max-width: 240px;
+        display: block;
+        margin: 10px auto;
+order: 2;
+    }
+    
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+    .services__sdk-development-ill {
+        max-width: 300px;
+        display: block;
+        margin: 10px auto;
+order:2;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .services__sdk-development-ill {
+        max-width: 354px;
+        
+        margin: auto;
+    }
+    
+}
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    .services__sdk-development-ill {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+}

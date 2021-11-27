@@ -1,3 +1,10 @@
 .services__info {
     
 }
+@media screen and (max-width:425px) {
+    .services__info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

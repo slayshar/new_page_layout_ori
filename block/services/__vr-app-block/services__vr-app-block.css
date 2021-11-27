@@ -1,3 +1,15 @@
 .services__vr-app-block {
   
 }
+@media screen and (max-width:425px) {
+    .services__vr-app-block {
+        order:1;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .services__vr-app-block {
+        margin-right:30px;
+    }
+    
+}

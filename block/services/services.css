@@ -16,6 +16,7 @@
 @import url(./__vr-app-text/services__vr-app-text.css);
 @import url(./__vr-app-title/services__vr-app-title.css);
 @import url(./__variations/services__variations.css);
+@import url(./__title/services__title.css);
 
 .services {
     max-width: 1131px;
