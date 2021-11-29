@@ -2,3 +2,9 @@
     margin-top: 81px;
     margin-bottom: 100px;
 }
+@media screen and (max-width:1023px) {
+    .achivements__title {
+        margin-bottom:50px;
+    }
+    
+}

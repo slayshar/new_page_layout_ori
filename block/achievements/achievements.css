@@ -7,3 +7,10 @@
 .achievements {
     margin: 0 auto;
 }
+@media screen and (max-width:1023px) {
+    .achievements{
+        display: flex;
+    flex-direction: column;
+    } 
+    
+ }
