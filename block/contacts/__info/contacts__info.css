@@ -4,3 +4,16 @@
 margin: 108px auto auto 234px;
 padding-inline-start: 50px;
 }
+@media screen and (max-width:425px) {
+    .contacts__info {
+        margin: 30px 30px 0;
+        padding-inline-start: 30px;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .contacts__info {
+        margin:70px 70px 0;
+        padding-inline-start: 40px;
+    }
+}

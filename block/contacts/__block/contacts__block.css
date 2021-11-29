@@ -3,3 +3,17 @@
     grid-template-columns: 45% 55%;
 
 }
+@media screen and (max-width:425px) {
+    .contacts__block {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .contacts__block {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}

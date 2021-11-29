@@ -21,3 +21,12 @@ font-weight: normal;
 font-size: 14px;
 line-height: 19px;
 }
+@media screen and (max-width:1023px) {
+    .contacts__form_item:nth-child(1) {
+        margin: 40px auto auto;
+    }
+    
+    
+   
+    
+}

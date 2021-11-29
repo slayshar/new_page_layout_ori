@@ -6,3 +6,31 @@
 .contacts__form_size_short::placeholder {
     transform: translateY(-10px);
 }
+@media screen and (max-width:373px) {
+    .contacts__form_size_short {
+        width: 204px;
+        height: 24px;
+    }
+    
+}
+@media screen and (min-width:374px) and (max-width:424px) {
+    .contacts__form_size_short {
+        width: 259px;
+        height: 26px;
+    }
+    
+}
+@media screen and (min-width:425px) and (max-width:767px) {
+    .contacts__form_size_short {
+        width: 309px;
+        height: 31px;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .contacts__form_size_short {
+        width: 259px;
+        height: 26px;
+    }
+    
+}

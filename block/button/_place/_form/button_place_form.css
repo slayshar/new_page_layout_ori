@@ -4,3 +4,18 @@
     margin: 30px auto auto;
     border-radius: 6px;
 }
+@media screen and (max-width:425px) {
+    .button_place_form {
+        width:204px;
+       
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:1023px) {
+    .button_place_form {
+        width:259px;
+       
+    }
+    
+}
+
