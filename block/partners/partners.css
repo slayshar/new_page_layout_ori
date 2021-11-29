@@ -1,10 +1,37 @@
 @import url(./__title/partners__title.css);
 @import url(./__name/partners__name.css);
 @import url(./__desk/partners__desk.css);
+@import url(./__show-more/partners__show-more.css);
 
 
 .partners {
     background-image: url(../../images/wave-background.svg);
-   min-height: 1412px;
+    background-repeat: no-repeat;
+   height: 1412px;
     margin-top: 131px;
+}
+@media screen and (min-width:320px) and (max-width:550px) {
+    .partners {
+        margin-top:0;
+       height: 800px;
+       background-size: cover;
+    }
+    
+}
+@media screen and (min-width:551px) and (max-width:768px) {
+    .partners {
+        margin-top:0;
+        height: 1250px;
+        background-size: cover;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:1440px) {
+    .partners {
+        margin-top:0;
+        height: 1300px;
+        background-size: cover;
+    }
+    
+    
 }

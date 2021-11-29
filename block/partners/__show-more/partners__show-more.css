@@ -1,0 +1,18 @@
+.partners__show-more {
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .partners__show-more {
+        display:block;
+        text-align: center;
+        margin: 23px auto;
+        font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #194484;
+background: url(../../../images/strelocha.svg) no-repeat calc(50% + 59px) ;
+    }
+}

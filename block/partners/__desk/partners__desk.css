@@ -8,3 +8,17 @@
     align-content: center;
     justify-items: center;
 }
+@media screen and (max-width:1024px) {
+    .partners__desk {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 16px;
+        margin: 47px 30px 0;
+    }
+    
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .partners__desk {
+        row-gap: 30px;
+    }
+    
+}
