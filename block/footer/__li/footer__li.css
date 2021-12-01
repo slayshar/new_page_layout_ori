@@ -10,3 +10,10 @@ line-height: 20px;
    margin-top:29px;
 
 }
+
+@media screen and (min-width:374px) and (max-width:425px) {
+   .footer__li {
+      margin-left: 20px;
+   }
+   
+}

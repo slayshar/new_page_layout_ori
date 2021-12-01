@@ -1,3 +1,9 @@
 .footer__title_serv {
     
 }
+@media screen and (max-width:425px) {
+    .footer__title_serv {
+        margin:63px auto 0 22px;
+    }
+    
+}

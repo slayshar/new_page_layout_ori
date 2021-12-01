@@ -17,10 +17,47 @@
 @import url(./__about/footer__about.css);
 
 .footer {
-    max-height: 707px;
+    max-height: 1288px;
     max-width: 1600px;
     background: url(../../images/footer/blue_wave_light.svg), url(../../images/footer/blue_wave_dark.svg);
     background-repeat: no-repeat;
     background-position: bottom;
    
+}
+@media screen and (max-width:375px) {
+   .footer{ 
+        background-size: cover !important;
+       background: url(../../images/light-blue-wave\ mobile.svg), url(../../images/blue\ wave\ mobile.svg);
+       background-repeat: no-repeat;
+       background-position: 0 160px}
+}
+@media screen and (min-width:376px) and (max-width:425px) {
+    .footer {
+
+        background-size: cover;
+       
+       background-repeat: no-repeat;
+       background-position: right;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .footer {
+        
+        background-size: cover;
+       
+       background-repeat: no-repeat;
+       background-position: right;
+    }
+    
+}
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .footer {
+        
+        background-size: cover;
+       
+       background-repeat: no-repeat;
+      
+    }
+    
 }

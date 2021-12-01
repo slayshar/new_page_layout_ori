@@ -1,3 +1,17 @@
 .footer__technologies {
     margin-left:58px;
 }
+@media screen and (max-width:425px) {
+    .footer__technologies {
+        margin-left:0;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .footer__technologies {
+        grid-column: 3/4;
+        grid-row:1/2;
+        
+    }
+    
+}

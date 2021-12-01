@@ -1,3 +1,15 @@
 .footer__services {
     margin-left: 136px;
 }
+@media screen and (max-width:425px) {
+    .footer__services {
+        margin-left:0;
+    }
+    
+}
+@media screen and (min-width:426px) and (max-width:1024px) {
+    .footer__services {
+        margin-left:0;
+    }
+    
+}
